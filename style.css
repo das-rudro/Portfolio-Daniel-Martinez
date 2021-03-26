@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+}
+
+.header-content{
+    flex-basis: 50%;
+    background: #015761;
+}
+
+.header-top-content{
+    margin-top: 20px;
+}
+
+.logo{
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+
+.menu{
+    margin-left: 45px;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 25px;
+    color: wheat;
+    font-size: 16px;
+    font-family: arial;
+}
+
+.menu ul li:hover a{
+    color: white;
+}
+
+.header-bottom-content{
+    margin: 20vh;
+}
+
+.header-bottom-content h3{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #F7DC4F;
+}
+
+.header-bottom-content h1{
+    font-size: 70px;
+    font-family: sans-serif;
+    color: wheat;
+}
+
+.header-bottom-content p{
+    color: wheat;
+    font-family: arial;
+    font-size: 15px;
+}
+
+.header-image{
+    flex-basis: 50%;
+}
+
+.header-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.bio{
+    text-align: center;
+    width: 100%;
+    background: #F1F0F0;
+    margin-top: -5px;
+    height: 50vh;
+}
+
+.about{
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+    height: 15vh;
+    padding-top: 80px;
+}
+
+.bio h2{
+    color: #015761;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.bio p{
+    color: #015761;
+    font-size: 12px;
+    font-family: arial;
+    margin-bottom: 50px;
+}
+
+.bio-button button{
+    border: none;
+    outline: none;
+    color: gray;
+    background: #f7dc4f;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.bio-button:hover button{
+    background: wheat;
+    border-bottom: 2px solid gray;
+}
+
+.video-content h1{
+    background: white;
+    color: #015761;
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+
+.video-content img{
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-wrapper h2{
+    background: white;
+    color: #015761;
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+
+.gallery{
+    width: 1140px;
+    margin-left: 14%;
+}
+
+.gallery-image{
+    display: flex;
+    
+}
+
+.image01{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+
+.footer{
+    display: flex;
+}
+
+.footer-image{
+    flex-basis: 50%;
+}
+
+.footer-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer-content-wrapper{
+    flex-basis: 50%;
+    background: #015761;
+}
+
+.footer-content{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.footer-content h1{
+    color: yellowgreen;
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+  
+.footer-content h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.fotter-content-bottom{
+    margin-bottom: 20px;
+}
+
+.fotter-content-bottom h4{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.fotter-content-bottom p{
+    color: wheat;
+    font-size: 14px;
+    font-family: arial;
+}
+
+.social-media{
+    margin-top: 40px;
+}
+
+.fa-facebook{
+    margin-right: 20px;
+    color:#5991BE;
+    cursor: pointer;
+}
+
+.fa-facebook:hover{
+    transform: translateY(5px);
+    color: wheat;
+}
+
+.fa-twitter{
+    margin-right: 20px;
+    color: #5991BE;
+    cursor: pointer;
+}
+
+.fa-twitter:hover{
+    color: wheat;
+    transform: translateY(5px);
+}
+
+.fa-instagram{
+    margin-right: 20px;
+    color:#5991BE;
+    cursor: pointer;
+}
+
+.fa-instagram:hover{
+    transform: translateY(5px);
+    color: wheat;
+}
+
+.fa-youtube-play{
+    margin-right: 20px;
+    color: #5991BE;
+    cursor: pointer;
+}
+.fa-youtube-play:hover{
+    transform: translateY(5px);
+    color: wheat;
+}
+
+.copyright{
+    background: white;
+    color: #015761;
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.copyright p{
+    font-family: arial;
+    font-size: 18px;
+}
+
+.copyright p a{
+    color:#9acd32;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
