@@ -117,7 +117,7 @@
     cursor: pointer;
 }
 
-.bio-button:hover button{
+.bio-button button:hover{
     background: wheat;
     border-bottom: 2px solid gray;
 }
